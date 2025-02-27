@@ -1,5 +1,6 @@
 Nama		: Haidar Rozan Sodiq
 Rombel		: SI10
+
 1. Jelaskan apa yang dimaksud dengan dokumen root ? 
 2. Pada apache web server, apakah dokumen root harus terletak dalam direktori C:\xampp\htdocs ? 
 3. Jelaskan jawaban anda Jelaskan apa yang dimaksud dengan perintah git : init, clone, remote, add, commit, push dan checkout 
