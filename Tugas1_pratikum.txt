@@ -14,21 +14,21 @@ Jawaban
 2. Pada Apache Web Server, apakah dokumen root harus terletak dalam direktori C:\xampp\htdocs? Jelaskan jawaban anda.Tidak harus. Meskipun pada instalasi XAMPP default dokumen root biasanya terletak di C:\xampp\htdocs, hal tersebut tidak mutlak. Konfigurasi Apache dapat diubah melalui file seperti httpd.conf atau vhost.conf untuk menentukan lokasi dokumen root yang berbeda. Artinya, administrator server bebas mengatur letak dokumen root sesuai kebutuhan dan struktur direktori yang diinginkan.
 
 3. Jelaskan apa yang dimaksud dengan perintah Git: init, clone, remote, add, commit, push, dan checkout.
-Git init:Perintah ini digunakan untuk menginisialisasi sebuah repositori Git baru di dalam direktori yang ada. Setelah menjalankan perintah ini, direktori tersebut akan menjadi repositori Git yang siap melacak perubahan.
-Git clone: Digunakan untuk menyalin (mengkloning) sebuah repositori yang sudah ada dari lokasi remote ke komputer lokal. Ini membuat salinan lengkap dari seluruh riwayat repositori.
-Git remote: Perintah ini mengelola koneksi ke repositori remote. Dengan perintah ini, Anda bisa menambahkan, menghapus, atau melihat URL remote yang akan dihubungkan dengan repositori lokal.
-Git add: Menambahkan perubahan file atau file baru ke area staging (panggonan sementara) sebelum dibuat commit. Dengan kata lain, perintah ini “menandai” file yang akan dimasukkan dalam commit berikutnya.
-Git commit: Perintah untuk menyimpan snapshot dari perubahan yang telah distaging. Commit menyertakan pesan deskriptif yang menjelaskan perubahan, sehingga membantu dalam melacak riwayat modifikasi.
-Git push: Mengirim commit yang telah dibuat secara lokal ke repositori remote, sehingga perubahan dapat diakses oleh kolaborator atau tersedia di server.
-Git checkout: Digunakan untuk beralih antar branch (cabang) atau untuk mengembalikan file ke kondisi pada commit tertentu. Perintah ini memungkinkan Anda untuk bekerja pada versi kode yang berbeda sesuai kebutuhan.
+- Git init:Perintah ini digunakan untuk menginisialisasi sebuah repositori Git baru di dalam direktori yang ada. Setelah menjalankan perintah ini, direktori tersebut akan menjadi repositori Git yang siap melacak perubahan.
+- Git clone: Digunakan untuk menyalin (mengkloning) sebuah repositori yang sudah ada dari lokasi remote ke komputer lokal. Ini membuat salinan lengkap dari seluruh riwayat repositori.
+- Git remote: Perintah ini mengelola koneksi ke repositori remote. Dengan perintah ini, Anda bisa menambahkan, menghapus, atau melihat URL remote yang akan dihubungkan dengan repositori lokal.
+- Git add: Menambahkan perubahan file atau file baru ke area staging (panggonan sementara) sebelum dibuat commit. Dengan kata lain, perintah ini “menandai” file yang akan dimasukkan dalam commit berikutnya.
+- Git commit: Perintah untuk menyimpan snapshot dari perubahan yang telah distaging. Commit menyertakan pesan deskriptif yang menjelaskan perubahan, sehingga membantu dalam melacak riwayat modifikasi.
+- Git push: Mengirim commit yang telah dibuat secara lokal ke repositori remote, sehingga perubahan dapat diakses oleh kolaborator atau tersedia di server.
+- Git checkout: Digunakan untuk beralih antar branch (cabang) atau untuk mengembalikan file ke kondisi pada commit tertentu. Perintah ini memungkinkan Anda untuk bekerja pada versi kode yang berbeda sesuai kebutuhan.
 
 4.Jelaskan perbedaan antara GitHub dan GitLab.
-GitHub adalah layanan hosting repositori Git berbasis cloud yang populer, terutama di kalangan open source, Sedangkan GitLab juga merupakan platform hosting repositori Git, namun menawarkan fitur yang lebih komprehensif, seperti built-in Continuous Integration/Continuous Deployment (CI/CD), manajemen proyek yang lebih lengkap, dan kemampuan untuk diinstal secara lokal (self-hosted). 
+- GitHub adalah layanan hosting repositori Git berbasis cloud yang populer, terutama di kalangan open source, Sedangkan - --- GitLab juga merupakan platform hosting repositori Git, namun menawarkan fitur yang lebih komprehensif, seperti built-in Continuous Integration/Continuous Deployment (CI/CD), manajemen proyek yang lebih lengkap, dan kemampuan untuk diinstal secara lokal (self-hosted). 
 
 5. Apa bedanya variable user dengan variable system?
 Variable User adalah variabel yang didefinisikan khusus untuk satu akun pengguna. Nilainya hanya berlaku ketika pengguna tersebut sedang aktif dan tidak mempengaruhi pengguna lain. Contoh: variabel PATH yang diatur khusus untuk pengguna tertentu. Sedangkan variable System adalah variabel yang berlaku secara global untuk seluruh sistem operasi dan semua pengguna. 
 
 6. Apa persamaan variable system dengan variable constant?
-Nilai yang tetap dalam sesi tertentu: keduanya cenderung memiliki nilai yang tidak berubah selama sesi atau periode tertentu.
-Ketersediaan global: keduanya tersedia secara global dalam konteksnya masing-masing. variabel constant bersifat global di dalam program, sedangkan variabel system berlaku untuk semua proses dan pengguna di sistem operasi. 
+- Nilai yang tetap dalam sesi tertentu: keduanya cenderung memiliki nilai yang tidak berubah selama sesi atau periode tertentu.
+- Ketersediaan global: keduanya tersedia secara global dalam konteksnya masing-masing. variabel constant bersifat global di dalam program, sedangkan variabel system berlaku untuk semua proses dan pengguna di sistem operasi. 
 
