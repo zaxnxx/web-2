@@ -23,7 +23,7 @@
                 <h3 style="margin-left: 0;">Form Nilai Siswa</h3>
             </div>
             <div class="card-body col-12 text-end align-middle">
-                <form class="form-horizontal" method="POST" action="form-nilai.php">
+                <form class="form-horizontal" method="POST" action="nilai-siswa.php">
                     <div class="form-group row">
                         <label for="nama" class="col-sm-4 col-form-label"><strong>Nama Lengkap</strong></label>
                         <div class="col-sm-4">
