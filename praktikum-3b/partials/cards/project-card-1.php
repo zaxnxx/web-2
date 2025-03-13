@@ -6,7 +6,7 @@
                                             <h2 class="fw-bolder">Perpustakaan Digital</h2>
                                             <p>The digital library project aims to provide easy access to book collections and references in digital format, featuring search, borrowing, and user management.</p>
                                         </div>
-                                        <img class="img-fluid" src="assets/project1.png" alt="..." />
+                                        <img class="img-fluid" src="assets/project1.png" alt="..." style= "width: 800px; height:400px;" />
                                     </div>
                                 </div>
                             </div>
